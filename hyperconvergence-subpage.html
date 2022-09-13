@@ -1,121 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <link rel="stylesheet" type="text/css" href="/cssAll/homePage.css">
-      <title>Team-SOS</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="./cssAll/homePage.css" />
+    <title>Team-SOS</title>
   </head>
   <body>
-      <!-- top header with phone and social media -->
-      <div id="phoneSocial-head">
-          <a id="FB" target="_blank" href="https://m.facebook.com/teamsos2020/"><img class="FB" src="cssAll/images/home/facebook-icon-transparent-background-23.png" alt="facebook logo"></a>
-          <a id="IG" target="_blank" href="https://www.instagram.com/teamsos2020/"><img class="IG" src="cssAll/images/home/001-instagram-social-network-logo-of-photo-camera.png" alt="instagram social network logo"></a>
-          <a id ="TW" target="_blank" href="https://mobile.twitter.com/teamsos2020"><img class="TW" src="cssAll/images/home/002-twitter-logo-silhouette.png" alt="twitter logo"></a>
-          <a class="topNumber" href="tel:888.336.7671"><img class="topPhone" src="cssAll/images/home/PinClipart.com_telephone-clip-art-free_106953.png"> 888-336-7671</a>
+    <!-- top header with phone and social media -->
+    <div id="phoneSocial-head">
+      <a id="FB" target="_blank" href="https://m.facebook.com/teamsos2020/"
+        ><img
+          class="FB"
+          src="cssAll/images/home/facebook-icon-transparent-background-23.png"
+          alt="facebook logo"
+      /></a>
+      <a id="IG" target="_blank" href="https://www.instagram.com/teamsos2020/"
+        ><img
+          class="IG"
+          src="cssAll/images/home/001-instagram-social-network-logo-of-photo-camera.png"
+          alt="instagram social network logo"
+      /></a>
+      <a id="TW" target="_blank" href="https://mobile.twitter.com/teamsos2020"
+        ><img
+          class="TW"
+          src="cssAll/images/home/002-twitter-logo-silhouette.png"
+          alt="twitter logo"
+      /></a>
+      <a class="topNumber" href="tel:888.336.7671"
+        ><img
+          class="topPhone"
+          src="cssAll/images/home/PinClipart.com_telephone-clip-art-free_106953.png"
+        />
+        888-336-7671</a
+      >
+    </div>
+    <!-- TEAM SOS Logo and five core navigation dropdown menus -->
+    <div id="mainHeader">
+      <div id="logo">
+        <a href="index.html"
+          ><img
+            class="object"
+            src="cssAll/images/home/teamSOS(backup).jpg"
+            alt="Team-SOS logo"
+        /></a>
       </div>
-      <!-- TEAM SOS Logo and five core navigation dropdown menus -->
-      <div id="mainHeader">
-          <div id="logo">
-              <a href="index.html"><img class="object" src="cssAll/images/home/teamSOS(backup).jpg" alt="Team-SOS logo"></a>
-          </div>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Menu</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="index.html"><h1 class="company">Company</h1></a>
-              <a href="clients.html">Clients</a>
-              <a href="philanthropy.html">Philanthropy</a>
-              <a href="techPartners.html">Technology Partners</a>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html"><h1 class="company">Company</h1></a>
+          <a href="clients.html">Clients</a>
+          <a href="philanthropy.html">Philanthropy</a>
+          <a href="techPartners.html">Technology Partners</a>
 
-              <h1 class="solution">Solutions</h1>
-              <a href="seacom.html">SEACOM</a>
-              <a href="infrastructure.html">Infrastructure</a>
-              
-              <a href="about.html"><h1 class="team">About Team-SOS</h1></a>
-              <a href="leadership.html">Leadership</a>
-              <a href="careers.html">Careers</a>
-              
-              <a href="collab.html"><h1 class="collab">Collaborations</h1></a>
-              <a href="uc.html">Unified Communications</a>
-              <a href="contactCenter.html">Contact Center</a>
-              <a href="cloud.html">Cloud</a>
-              
-              <a href="SMART.html"><h1 class="SMART">SMART Services</h1></a>
-              <a href="ms.html">Managed Services</a>
-              <a href="proServices.html">Professional Services</a>
-              <a href="carrier.html">Carrier Services</a>
-            </div>
-          </div>
+          <h1 class="solution">Solutions</h1>
+          <a href="seacom.html">SEACOM</a>
+          <a href="infrastructure.html">Infrastructure</a>
 
-        <a href="#"><button id="Contact">Contact Us</button></a>
-      </div>
-      <!-- Contact Form -->
-      <div class="contactContainer">
-        <h3 class="contactHero">Contact Team-SOS To Discuss The Best Telecom Solution For You!</h3>
-        <form class="formAlign" action="#">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name...">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-      
-          <label for="company">Company</label>
-          <input type="text" id="company" name="company" placeholder="Your company...">
+          <a href="about.html"><h1 class="team">About Team-SOS</h1></a>
+          <a href="leadership.html">Leadership</a>
+          <a href="careers.html">Careers</a>
 
-          <label for="phoneNumber">Phone Number</label>
-          <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Your phone number...">
-      
-          <label for="message">Message</label>
-          <input id="message" name="message" placeholder="Write something..">
-      
-          <a mailto="#"><button>Send</button></a>
-      
-        </form>
+          <a href="collab.html"><h1 class="collab">Collaborations</h1></a>
+          <a href="uc.html">Unified Communications</a>
+          <a href="contactCenter.html">Contact Center</a>
+          <a href="cloud.html">Cloud</a>
+
+          <a href="SMART.html"><h1 class="SMART">SMART Services</h1></a>
+          <a href="ms.html">Managed Services</a>
+          <a href="proServices.html">Professional Services</a>
+          <a href="carrier.html">Carrier Services</a>
+        </div>
       </div>
-      <!-- Page Bottom Navigation -->
-      <div class="bottomNav">
-          <div class="one nav-grid">
-              <h1 class="bottomCompany">Company</h1>
-              <a href="#">Clients</a>
-              <a href="#">Philanthropy</a>
-              <a href="#">Technology Partners</a>
-          </div>
-          <div class="two nav-grid">
-              <a href="#"><h1 class="bottomTeamSolutions">About Team-SOS</h1></a>
-              <a href="#">Leadership</a>
-              <a href="#">SEACOM</a>
-              <a href="#">Careers</a>
-              <a href="#">Infrastructure</a>
-          </div>
-          <div class="three nav-grid">
-              <a href="#"><h1 class="bottomCollab">Collaborations</h1></a>
-              <a href="#">Unified Communication</a>
-              <a href="#">Contact Center</a>
-              <a href="#">Cloud</a>
-          </div>
-          <div class="four nav-grid">
-              <a href="#"><h1 class="bottomSmartServices">SMART Services</h1></a>
-              <a href="#">Managed Services</a>
-              <a href="#">Professional Services</a>
-              <a href="#">Carrier Services</a>
-          </div>
-          <div class="five nav-grid">
-              <h1 class="resources">Resources</h1>
-              <a href="#">News & Events</a> 
-              <a href="#">Case Studies</a>  
-              <a href="#">Videos</a>
-          </div>
-          <div class="six nav-grid">
-              <h1 class="bottomContact">Contact Us</h1>
-              <p>Phone: <a href="tel:888.336.7671">888.336.7671</a></p>
-              <p>Email: <a href="mailto:etips@team-sos.com">etips@team-sos.com</a></p>
-              <button class="bottomContactB">Contact Us</button>           
-          </div>
+
+      <a href="#"><button id="Contact">Contact Us</button></a>
+    </div>
+    <!-- Contact Form -->
+    <div class="contactContainer">
+      <h3 class="contactHero">
+        Contact Team-SOS To Discuss The Best Telecom Solution For You!
+      </h3>
+      <form class="formAlign" action="#">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name..."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name..."
+        />
+
+        <label for="company">Company</label>
+        <input
+          type="text"
+          id="company"
+          name="company"
+          placeholder="Your company..."
+        />
+
+        <label for="phoneNumber">Phone Number</label>
+        <input
+          type="text"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="Your phone number..."
+        />
+
+        <label for="message">Message</label>
+        <input id="message" name="message" placeholder="Write something.." />
+
+        <a mailto="#"><button>Send</button></a>
+      </form>
+    </div>
+    <!-- Page Bottom Navigation -->
+    <div class="bottomNav">
+      <div class="one nav-grid">
+        <h1 class="bottomCompany">Company</h1>
+        <a href="#">Clients</a>
+        <a href="#">Philanthropy</a>
+        <a href="#">Technology Partners</a>
       </div>
-      <!-- Copyright -->
-      <p class="copyright">© 2021 TEAM-SOS</p>
-      <script src="cssAll/JS/dropdown.js"></script>
+      <div class="two nav-grid">
+        <a href="#"><h1 class="bottomTeamSolutions">About Team-SOS</h1></a>
+        <a href="#">Leadership</a>
+        <a href="#">SEACOM</a>
+        <a href="#">Careers</a>
+        <a href="#">Infrastructure</a>
+      </div>
+      <div class="three nav-grid">
+        <a href="#"><h1 class="bottomCollab">Collaborations</h1></a>
+        <a href="#">Unified Communication</a>
+        <a href="#">Contact Center</a>
+        <a href="#">Cloud</a>
+      </div>
+      <div class="four nav-grid">
+        <a href="#"><h1 class="bottomSmartServices">SMART Services</h1></a>
+        <a href="#">Managed Services</a>
+        <a href="#">Professional Services</a>
+        <a href="#">Carrier Services</a>
+      </div>
+      <div class="five nav-grid">
+        <h1 class="resources">Resources</h1>
+        <a href="#">News & Events</a>
+        <a href="#">Case Studies</a>
+        <a href="#">Videos</a>
+      </div>
+      <div class="six nav-grid">
+        <h1 class="bottomContact">Contact Us</h1>
+        <p>Phone: <a href="tel:888.336.7671">888.336.7671</a></p>
+        <p>Email: <a href="mailto:etips@team-sos.com">etips@team-sos.com</a></p>
+        <button class="bottomContactB">Contact Us</button>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <p class="copyright">© 2021 TEAM-SOS</p>
+    <script src="cssAll/JS/dropdown.js"></script>
   </body>
 </html>
