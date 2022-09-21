@@ -83,7 +83,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 34em;
+  gap: 20em;
 }
 
 #logo {
@@ -92,14 +92,15 @@ body {
 }
 
 .object {
+  padding: 1em 0 0 4em;
   height: 6em;
-  width: 30em;
+  width: 20em;
   object-fit: scale-down;
 }
 
 /* Top Contact Us Button */
 #Contact {
-  margin: 2em 0 0 -10em;
+  margin: 1.5em 0 0;
   background-color: hsl(0, 0%, 100%);
   border: 3px solid hsl(288, 72%, 50%);
   border-radius: 5px;
@@ -119,7 +120,7 @@ body {
 .dropbtn {
   height: 2em;
   width: 8em;
-  margin: 0.85em 0 0 0;
+  margin: 0.85em 0 0 2em;
   background-color: hsl(288, 72%, 50%);
   color: white;
   padding: 10px;
